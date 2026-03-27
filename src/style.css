@@ -96,6 +96,7 @@ html, body {
   transform: translateY(-50%) rotate(11deg);
   height: 84vh;
   width: auto;
+  border-radius: 74px;
 }
 
 .dandi-ring {
