@@ -367,7 +367,58 @@ html, body {
   line-height: 1.18;
 }
 
-/* --- Slide 3: Jackie --- */
+/* --- Slide 3: Overview --- */
+.overview-slide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8%;
+  background: linear-gradient(135deg, #e8dff5 0%, #f5e6f0 40%, #fce4d6 70%, #d4e8c2 100%);
+}
+
+.overview-row {
+  display: flex;
+  gap: 80px;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.overview-col {
+  flex: 1;
+}
+
+.overview-label {
+  font-family: 'Donegal One Local', 'Donegal One', serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #999;
+  margin-bottom: 14px;
+}
+
+.overview-value {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #3a3a3a;
+  line-height: 1.7;
+}
+
+.overview-anim {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.slide-active .overview-anim {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* --- Slide 4: Jackie --- */
 .jackie-slide {
   width: 100%;
   height: 100%;
@@ -772,9 +823,9 @@ html, body {
 
 .garden-phone {
   position: absolute;
-  border-radius: 50px;
   object-fit: cover;
   box-shadow: 0 12px 48px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
 }
 
 .garden-phone-top {
