@@ -772,7 +772,7 @@ html, body {
 
 .garden-phone {
   position: absolute;
-  border-radius: 40px;
+  border-radius: 50px;
   object-fit: cover;
   box-shadow: 0 12px 48px rgba(0, 0, 0, 0.3);
 }
@@ -839,8 +839,9 @@ html, body {
   top: 12%;
   width: 34vw;
   height: auto;
-  border-radius: 95px;
+  border-radius: 98px;
   box-shadow: 0 12px 48px rgba(0, 0, 0, 0.2);
+  clip-path: inset(0.25% 0 0 0 round 98px);
 }
 
 .care-title {
@@ -1016,6 +1017,7 @@ html, body {
   width: auto;
   border-radius: 88px;
   box-shadow: 0 12px 48px rgba(0, 0, 0, 0.15);
+  clip-path: inset(0.18% 0 0 0 round 88px);
 }
 
 .supp-anim {
